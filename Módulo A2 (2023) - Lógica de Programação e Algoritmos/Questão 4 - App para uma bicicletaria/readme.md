@@ -4,10 +4,10 @@
 
 1. Cadastrar Peça
 2. Consultar Peça
-    1. Consultar Todas as Peças
-    2. Consultar Peças por Código
-    3. Consultar Peças por Fabricante
-    4. Retornar
+    * Consultar Todas as Peças
+    * Consultar Peças por Código
+    * Consultar Peças por Fabricante
+    * Retornar
 3. Remover Peça 
 4. Sair 
 
