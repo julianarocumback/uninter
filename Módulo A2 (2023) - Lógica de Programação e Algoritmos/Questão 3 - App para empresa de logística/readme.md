@@ -10,10 +10,10 @@ Em que cada uma das variáveis que compõe o preço total é quantizada da segui
 
 |      Dimensões (cm³)      |   Valor (R$)   |
 |:-------------------------:|:--------------:|
-|       volume < 10000      |      10,00     |
+|       volume < 1000       |      10,00     |
 |   1000 <= volume < 10000  |      20,00     |
-|  10000 <= volume < 10000  |      30,00     |
-|  30000 <= volume < 10000  |      50,00     |
+|  10000 <= volume < 30000  |      30,00     |
+|  30000 <= volume < 100000 |      50,00     |
 |     volume >= 100000      |  Não é aceito  |
 
 **Quadro 2**
@@ -51,7 +51,7 @@ Obs.: Pode-se mudar o nome das cidades e siglas. Utilizando 3 cidades está óti
     * Deve-se ter try/except para o caso do usuário digitar um valor não numérico; 
     * Deve-se retornar o valor em (R$) conforme o Quadro 1 
 6. Deve-se codificar uma função *pesoObjeto* **(exigência 2 de 3)**;
-    * Dentro da função, pergunte o peso do objeto (em kg); 
+    * Dentro da função, pergunte o peso do objeto (kg); 
     * Deve-se ter um try/except para o caso de o usuário digitar um valor não numérico; 
     * Deve-se retornar o multiplicador conforme o Quadro 2 
 7. Deve-se codificar uma função *rotaObjeto* **(exigência 3 de 3)**; 
