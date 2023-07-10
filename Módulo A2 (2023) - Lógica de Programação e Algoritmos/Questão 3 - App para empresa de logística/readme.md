@@ -35,7 +35,7 @@ Em que cada uma das variáveis que compõe o preço total é quantizada da segui
 |  BR - Brasília até Rio de Janeiro      |       1.5       |
 |  RB - Rio de Janeiro até Brasília      |       1.5       |
 
-Obs.: Pode-se mudar o nome das cidades e siglas. Utilizando 3 cidades está ótimo  
+Obs.: Pode-se mudar o nome das cidades e siglas.
 
 **Elabore um programa em Python que:**  
 
