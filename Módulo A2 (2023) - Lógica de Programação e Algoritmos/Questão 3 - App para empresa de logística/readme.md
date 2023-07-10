@@ -28,11 +28,11 @@ Em que cada uma das variáveis que compõe o preço total é quantizada da segui
 **Quadro 3**
 |                  Rota                  |  Multiplicador  | 
 |:--------------------------------------:|:---------------:|
-|  RS - De Rio de Janeiro até São Paulo  |        1        |
-|  SR - De São Paulo até Rio de Janeiro  |        1        |
-|  BS - De Brasília até São Paulo        |       1.2       |
-|  SB - De São Paulo até Brasília        |       1.2       |
-|  BR - De Brasília até Rio de Janeiro   |       1.5       |
+|  RS - Rio de Janeiro até São Paulo     |        1        |
+|  SR - São Paulo até Rio de Janeiro     |        1        |
+|  BS - Brasília até São Paulo           |       1.2       |
+|  SB - São Paulo até Brasília           |       1.2       |
+|  BR - Brasília até Rio de Janeiro      |       1.5       |
 |  RB - Rio de Janeiro até Brasília      |       1.5       |
 
 Obs.: Pode-se mudar o nome das cidades e siglas. Utilizando 3 cidades está ótimo  
