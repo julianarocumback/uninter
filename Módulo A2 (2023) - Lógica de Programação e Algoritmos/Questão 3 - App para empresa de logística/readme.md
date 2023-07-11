@@ -1,13 +1,12 @@
-### Preço para encomendas
+## Preço para encomendas
 
-**Enunciado:** Imagine que você e sua equipe foram contratados por uma empresa de logística que acabou de entrar no ramo. Essa empresa trabalha com encomendas de pequeno e médio porte e opera somente entre 3 cidades. 
+**Enunciado:** Imagine que você e sua equipe foram contratados por uma empresa de logística que acabou de entrar no ramo. Essa empresa trabalha com encomendas de pequeno e médio porte e opera somente entre 3 cidades.
 
 O valor que a empresa cobra por objeto é dado pela seguinte equação: **(dimensão * peso * rota)**
 
-Em que cada uma das variáveis que compõe o preço total é quantizada da seguinte maneira:  
+Em que cada uma das variáveis que compõe o preço total é quantizada da seguinte maneira:
 
 **Quadro 1**
-
 |      Dimensões (cm³)      |   Valor (R$)   |
 |:-------------------------:|:--------------:|
 |       volume < 1000       |      10,00     |
@@ -37,23 +36,25 @@ Em que cada uma das variáveis que compõe o preço total é quantizada da segui
 
 Obs.: Pode-se mudar o nome das cidades e siglas.
 
-**Elabore um programa em Python que:**  
+---
 
-1. Pergunte a altura (cm), comprimento (cm) e largura (cm) do objeto. Se for digitado um valor não numérico e/ou as dimensões passarem do limite aceito, repita a pergunta;
-2. Pergunte o peso do objeto (kg). Se for digitado um valor não numérico e/ou o peso passar do limite aceito, repita a pergunta;
-3. Pergunte a rota do objeto. Se for digitado uma opção que não esteja na tabela, repita a pergunta;
-4. Encerre o total a ser pago com base na equação desse enunciado; 
-5. Deve-se codificar uma função *dimensoesObjeto* **(exigência 1 de 3)**;
+### Elabore um programa em Python que:
+
+* Pergunte a altura (cm), comprimento (cm) e largura (cm) do objeto. Se for digitado um valor não numérico e/ou as dimensões passarem do limite aceito, repita a pergunta;
+* Pergunte o peso do objeto (kg). Se for digitado um valor não numérico e/ou o peso passar do limite aceito, repita a pergunta;
+* Pergunte a rota do objeto. Se for digitado uma opção que não esteja na tabela, repita a pergunta;
+* Encerre o total a ser pago com base na equação desse enunciado; 
+* Deve-se codificar uma função '*dimensoesObjeto*' **(exigência 1 de 3)**;
     * Dentro da função, pergunte a altura do objeto (cm); 
     * Dentro da função, pergunte o comprimento do objeto (cm); 
-    * Dentro da função, pergunte a largura do objeto (cm) 
+    * Dentro da função, pergunte a largura do objeto (cm);
     * Calcule o volume (cm) da caixa p/a objeto (altura * largura * comprimento); 
     * Deve-se ter try/except para o caso do usuário digitar um valor não numérico; 
-    * Deve-se retornar o valor em (R$) conforme o Quadro 1 
-6. Deve-se codificar uma função *pesoObjeto* **(exigência 2 de 3)**;
+    * Deve-se retornar o valor em (R$) conforme o Quadro 1.
+* Deve-se codificar uma função '*pesoObjeto*' **(exigência 2 de 3)**;
     * Dentro da função, pergunte o peso do objeto (kg); 
-    * Deve-se ter um try/except para o caso de o usuário digitar um valor não numérico; 
-    * Deve-se retornar o multiplicador conforme o Quadro 2 
-7. Deve-se codificar uma função *rotaObjeto* **(exigência 3 de 3)**; 
+    * Deve-se ter um *try/except* para o caso do usuário digitar um valor não numérico; 
+    * Deve-se retornar o multiplicador conforme o Quadro 2.
+* Deve-se codificar uma função '*rotaObjeto*' **(exigência 3 de 3)**.
     * Dentro da função, pergunte a rota desejada (sugestão: utilize as siglas para facilitar os testes); 
-    * Deve-se retornar o multiplicador conforme o Quadro 3 
+    * Deve-se retornar o multiplicador conforme o Quadro 3.
