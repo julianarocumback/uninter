@@ -1,0 +1,59 @@
+body{
+    font-family: cera round pro;
+}
+
+nav{
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+#conteudo{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border: 1px solid black;
+    border-radius: 40px;
+    background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer {
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+}
+
+
+.fa-solid, a {
+    text-decoration: none;
+    color:aliceblue; 
+}
+
+a:hover{
+    color:#c84bb3;
+}
+
+.fa-solid:hover{
+    color: #c84bb3;
+}
+
+
+.jogo{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.list{
+    list-style: none;
+}
