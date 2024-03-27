@@ -1,0 +1,403 @@
+/* -----------------------------  VARIÁVEIS  ----------------------------- */
+
+:root {
+    /* ------------- cores ------------- */
+    --primeira-cor: rgb(0, 255, 255);
+    --segunda-cor: rgb(89, 89, 255);
+    --gradiente: var(--primeira-cor), var(--segunda-cor);
+
+    --fundo1: rgb(22, 22, 53);
+    --fundo2: rgb(34, 34, 82);
+}
+
+
+/* -------------------------------  BASE  -------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: cera round pro;
+    font-size: 18px;
+    background-color: var(--fundo1)
+}
+
+::-webkit-scrollbar{
+    background-color: rgb(22, 22, 53);
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ffffff23;
+}
+
+a {
+    font-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+h1 {
+    color: var(--segunda-cor);
+    font-size:35px;
+}
+
+p {
+    color: #ffffff;
+}
+
+
+/* ----------------------------  CABEÇALHO  ------------------------------ */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    background-color: #161629;
+    border-bottom: 1px solid #00ffffe5;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+
+.logo {
+    background-image: linear-gradient(to right, var(--gradiente));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 35px;
+    text-wrap: nowrap;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 15px;
+    transition: color .4s;
+}
+
+.link:hover {
+    color: #5959ff;
+}
+
+
+/* ----------------------------  CONTEÚDO  ------------------------------ */
+
+
+/* sobre */
+
+.sobre {
+    height: 950px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 70px;
+    align-items: center;
+}
+
+.conteudo_sobre {
+    grid-row: 2;
+    grid-column: 2/4; 
+}
+
+.avatar {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+.titulo_sobre {
+    padding-bottom: 15px;
+}
+
+.paragrafo_sobre {
+    font-size: 20px;
+    padding-bottom: 30px;
+    word-wrap: none;
+}
+
+.botao_sobre {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    background: linear-gradient(to right, var(--gradiente));
+}
+
+
+/* formação */
+
+.formacao {
+    height: 950px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 70px;
+    align-items: center;
+    background-color: var(--fundo2)
+}
+
+.conteudo_formacao {
+    grid-row: 2;
+    grid-column: 2/4;
+}
+
+.titulo_formacao {
+    padding-bottom: 15px;
+}
+
+.livros {
+    grid-row: 2;
+    grid-column: 4;
+}
+
+
+/* portfolio */
+
+.portfolio {
+    height: 950px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    align-items: center;
+}
+
+.conteudo_portfolio{
+    grid-row: 1;
+    grid-column: 1/4;
+    justify-items: center;
+}
+
+.titulo_portfolio {
+    text-align: center;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+    gap: 20px;
+    margin: 30px;
+}
+
+.img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* contato */
+
+.contato {
+    display: grid;
+    position: relative;
+    height: 850px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo2);
+}
+
+.formulario {
+    position: relative;
+    width: 500px;
+}
+
+.titulo_contato {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botoes_formulario,
+.botoes {
+    display: grid;
+}
+
+.botoes_formulario {
+    row-gap: 3px;
+    margin-bottom: 18px;
+}
+
+.botoes {
+    margin-top: 15px;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.mensagem {
+    resize: none;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.bot {
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.enviar {
+    height: 40px;
+    width: 100%;;
+    background: #00ffff;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* ----------------------------  RODAPÉ  ------------------------------ */
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: #161629;
+    text-align: center;
+    border-top: 1px solid #00ffffe5;
+}
+
+
+/* ---------------------------- CELULAR ------------------------------ */
+
+@media (max-width:1200px) {
+
+    /* header */
+    .nav__embaixo {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu__embaixo {
+        display: flex;
+        position: relative;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background-color: #161629;
+        height: 70px;
+        width: 100%;
+        justify-content: space-around;
+        border-top: 1px solid #00ffffe5;
+    }
+
+
+    /* sobre */
+
+    .sobre {
+        height: 950px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        align-content: center;
+    }
+
+    .conteudo_sobre {
+        grid-row: 2;
+        grid-column: 2;
+        text-align: center;   
+    }
+    
+    .avatar {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+
+    /* formação */
+    .formacao {
+        height: 950px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 300px);
+        margin-top: 150px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .conteudo_formacao {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    
+    .livros {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+
+    /* portfolio */
+    .portfolio {
+        height: 1200px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px auto 100px;
+    }
+    
+    .conteudo_portfolio{
+        grid-row: 2;
+        grid-column: 1;
+        margin: 0px 100px 0px 100px;
+        align-items: center;
+    }
+    
+    .titulo_portfolio {
+        text-align: center;
+    }
+
+    .imagens{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 50px;
+    }
+
+    .img1 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .img2 {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .img3 {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    /* footer */
+
+    .footer {
+        height: 140px;
+        border-top: none
+    }
+}

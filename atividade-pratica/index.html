@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juliana Rocumback</title>
+        <link rel="shortcut icon" href="/assets/img/j.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <!-- CABEÇALHO -->
+        <header class="header">
+            <nav class="nav nav__embaixo">
+                <a href="#" class="logo">Juliana Rocumback</a>
+                <div class="menu menu__embaixo">
+                    <ul class="lista">
+                        <li class="item">
+                            <a href="#sobre" class="link">Sobre</a>
+                        </li>
+                        <li class="item">
+                            <a href="#formacao" class="link">Formação</a>
+                        </li>
+                        <li class="item">
+                            <a href="#portfolio" class="link">Portfólio</a>
+                        </li>
+                        <li class="item">
+                            <a href="#contato" class="link">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        
+        <!-- CONTEÚDO -->
+        <main class="main">
+
+            <!-- sobre -->
+            <section class="sobre" id="sobre">
+                <div class="conteudo_sobre">
+                    <h1 class="titulo_sobre">Sobre</h1>
+                    <p class="paragrafo_sobre">Meu nome é Juliana, sou de São Paulo. Atualmente estou cursando o segundo período de Análise e Desenvolvimento de Sistemas na Uninter, com previsão de conclusão no fim de 2025.</p>
+                    <button class="botao_sobre"><a href="https://www.linkedin.com/in/julianarocumback/" target="_blank">LinkedIn</a></button>
+                </div>
+                <dotlottie-player src="https://lottie.host/376e0e8d-8a88-445c-8c99-68402b0e9fe4/0SDRAZp34g.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay class="avatar"></dotlottie-player>                
+            </section>
+
+            <!-- formação -->
+            <section class="formacao" id="formacao">
+                <div class="conteudo_formacao">
+                    <h1 class="titulo_formacao">Formação</h1>
+                    <p>Análise e Desenvolvimento de Sistemas (Superior)</p>
+                    <p>UNINTER - Centro Universitário Internacional</p>
+                    <p>Carga horária - 2100h (Cursando)</p>
+                    <br>
+                    <p>Ensino Médio Completo (2º Grau)</p>
+                    <p>IFSP - Instituto Federal de São Paulo</p>
+                    <p>2022 - Concluído</p>                 
+                </div>       
+                <dotlottie-player src="https://lottie.host/eb1e923c-09fc-486f-b623-01af35ec7b62/178PHCQEto.json" background="transparent" speed="1" style="width: 400px; height: 400px;" loop autoplay class="livros"></dotlottie-player>
+            </section>
+
+            <!-- portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="conteudo_portfolio">
+                <h1 class="titulo_portfolio">Portfólio</h1>
+                <div class="imagens">
+                    <a href="https://dribbble.com/shots/21756978-Crash-Casino-interface" target="_blank"><img src="assets/img/img1.jpg" alt="" class="img img1">Fonte: Bang Bang Studio</a>        
+                    <a href="https://dribbble.com/shots/22690664-iGaming-Platform-Web-Design" target="_blank"><img src="assets/img/img2.jpg" alt="" class="img img2">Fonte: Bang Bang Studio</a>
+                    <a href="https://dribbble.com/shots/22351146-Ninja-Blaze-Casino-Design" target="_blank img3"><img src="assets/img/img3.jpg" alt="" class="img img3">Fonte: Bang Bang Studio</a>
+                </div>
+            </div>
+            </section>
+
+            <!-- contato -->
+            <section class="contato" id="contato">
+                <form action="formulario.php" method="post" autocomplete="off" class="formulario">
+                    <h1 class="titulo_contato">Contato</h1>               
+                    <div class="botoes_formulario">                     
+                        <div class="botoes">
+                            <input type="text" name="nome"  maxlength="30" placeholder="Nome" class="bot" required>
+                        </div>
+                        <div class="botoes">
+                            <input type="email" maxlength="30" placeholder="Email" class="bot" required>
+                        </div>
+                    </div>
+                    <div class="area_texto">
+                        <textarea name="" cols="30" rows="10" required maxlength="2000" placeholder="Mensagem" class="mensagem"></textarea>
+                    </div>
+                    <input type="submit" class="enviar">
+                </form>
+            </section>  
+        </main>
+
+        <!-- RODAPÉ -->
+        <footer class="footer">
+            <p>Feito com muita ajuda de Deus! ❤</p>
+        </footer>
+
+        <!-- JAVASCRIPT -->
+        <script src="/assets/js/script.js"></script>
+
+        <!-- LottieFiles -->
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+
+    </body>
+</html>
