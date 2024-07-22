@@ -67,16 +67,18 @@ Para testar o software, execute os seguintes passos e apresente a saída do cons
 
 **Resultado:**
 
-*Adicionar pacientes na fila*
+*Adicionar pacientes na fila*    
+
 <div>
-<img src="image.png" width="200px">
-<img src="image-1.png" width="207px">
-<img src="image-2.png" width="200px">
-<img src="image-3.png" width="200px">
-<img src="image-4.png" width="200px">
+<img src="image.png" width="170px">
+<img src="image-1.png" width="172x">
+<img src="image-2.png" width="170x">
+<img src="image-3.png" width="170px">
+<img src="image-4.png" width="170px">
 </div>
 
-*Mostrar pacientes*
+*Mostrar pacientes*  
+
 ![alt text](image-5.png)
 
 *Chamar pacientes*
