@@ -51,4 +51,8 @@ Onde $CHAR1_{ASCII}$ e $CHAR2_{ASCII}$ são os valores ASCII da primeira e segun
 ---
 **Resultado:**
 
-![prints](image.png)
+<div>
+    <img src="image.png" width="270px">
+    <img src="image-1.png"  width="270px">
+    <img src="image-2.png"  width="270px">
+</div>
