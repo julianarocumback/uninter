@@ -9,9 +9,7 @@
 |   100 até 999    |    10%     |  
 |  1000 para cima  |    15%     |  
 
----
-
-### Elabore um programa em Python que:
+**Elabore um programa em Python que:**
 
 * Entre com o valor unitário do produto (lembre-se que número decimal é feito com ponto e não vírgula);  
 * Entre com a quantidade desse produto;  

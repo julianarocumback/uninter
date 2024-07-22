@@ -36,9 +36,7 @@ Em que cada uma das variáveis que compõe o preço total é quantizada da segui
 
 Obs.: Pode-se mudar o nome das cidades e siglas.
 
----
-
-### Elabore um programa em Python que:
+**Elabore um programa em Python que:**
 
 * Pergunte a altura (cm), comprimento (cm) e largura (cm) do objeto. Se for digitado um valor não numérico e/ou as dimensões passarem do limite aceito, repita a pergunta;
 * Pergunte o peso do objeto (kg). Se for digitado um valor não numérico e/ou o peso passar do limite aceito, repita a pergunta;
