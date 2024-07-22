@@ -81,5 +81,6 @@ Para testar o software, execute os seguintes passos e apresente a saída do cons
 
 ![alt text](image-5.png)
 
-*Chamar pacientes*
+*Chamar pacientes*   
+
 ![alt text](image-6.png)
