@@ -25,4 +25,4 @@
 
 **Resultado**
 
-![imagem](image.png)
+![imagem](img/image.png)

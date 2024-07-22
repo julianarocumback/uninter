@@ -43,15 +43,15 @@
 
 *Cadastrar as 3 peças*  
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 *Consultar as peças por: todas, código e fabricante*    
 <div>
-<img src="image-1.png">
-<img src="image-1.png">
-<img src="image-1.png">
+<img src="img/image-1.png">
+<img src="img/image-1.png">
+<img src="img/image-1.png">
 </div>
     
 *Remover peça*  
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)

@@ -66,4 +66,4 @@ Obs.: Pode-se mudar o nome das cidades e siglas.
 
 **Resultado:**
 
-![alt text](image.png)
+![alt text](img/image.png)

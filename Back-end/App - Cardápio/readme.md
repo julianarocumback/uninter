@@ -35,4 +35,4 @@ A lanchonete possui a seguinte tabela de produtos listados com seus códigos, de
 
 **Resultado:**
 
-![alt](image.png)
+![alt](img/image.png)

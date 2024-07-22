@@ -25,8 +25,8 @@ também classes extras ou adicionar métodos e atributos conforme julgar necess�
 **Resultado:**
 
 <div>
-    <img src="image.png" width="">
-    <img src="image-1.png" width="">
-    <img src="image-2.png" width="">
+    <img src="img/image.png">
+    <img src="img/image-1.png">
+    <img src="img/image-2.png">
 </div>
 
