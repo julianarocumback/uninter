@@ -31,3 +31,27 @@
 
 **Teste:**
 
+* Colocar um exemplo de SAIDA DO CONSOLE com o cadastro de 3 (ou mais) peças. Sendo 2 delas do mesmo fabricante
+* Colocar um exemplo de SAIDA DO CONSOLE com a consulta a todas as peças cadastradas
+* Colocar um exemplo de SAIDA DO CONSOLE com uma consulta por código
+* Colocar um exemplo de SAIDA DO CONSOLE com uma consulta por fabricante
+* Colocar um exemplo de SAIDA DO CONSOLE ao remover um cadastro e mostrando depois todos os cadastros
+
+---
+
+**Resultado:**
+
+*Cadastrar as 3 peças*  
+
+![alt text](image.png)
+
+*Consultar as peças por: todas, código e fabricante*    
+<div>
+<img src="image-1.png">
+<img src="image-1.png">
+<img src="image-1.png">
+</div>
+    
+*Remover peça*  
+
+![alt text](image-4.png)

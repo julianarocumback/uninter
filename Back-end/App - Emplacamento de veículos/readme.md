@@ -41,7 +41,7 @@ Onde $CHAR1_{ASCII}$ e $CHAR2_{ASCII}$ são os valores ASCII da primeira e segun
 7. Deve-se inserir na Tabela, além dos estados e distrito federal, um estado fictício, sendo que esse estado tenha seu *nome completo*, e como siglas, a primeira letra do seu nome e a primeira letra do seu último sobrenome. [EXIGÊNCIA DE CÓDIGO 7 de 7];
 
 
-**Teste:** para testar o software, execute os seguintes passos e apresente a saída do console conforme exemplo de saída de console: 
+**Teste:** para testar o software, execute os seguintes passos e apresente a saída do console: 
 
 1. Deve-se apresentar na saída de console, a impressão da tabela hash antes de inserir qualquer informação [EXIGÊNCIA DE SAÍDA DE CONSOLE 1 de 3]; 
 
