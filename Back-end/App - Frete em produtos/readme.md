@@ -56,3 +56,14 @@ Obs.: Pode-se mudar o nome das cidades e siglas.
 * Deve-se codificar uma função '*rotaObjeto*' **(exigência 3 de 3)**.
     * Dentro da função, pergunte a rota desejada (sugestão: utilize as siglas para facilitar os testes); 
     * Deve-se retornar o multiplicador conforme o Quadro 3.
+
+**Teste:**
+
+* Colocar um exemplo de SAIDA DE CONSOLE uma encomenda com peso, dimensões e rota válidos.
+* Colocar um exemplo de SAIDA DE CONSOLE com o tratamento de erro quando digitado um valor não numérico é digitado no campo peso ou dimensões.
+
+---
+
+**Resultado:**
+
+![alt text](image.png)

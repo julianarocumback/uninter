@@ -16,3 +16,13 @@
 * O programa deve retornar o valor total sem desconto;  
 * O programa deve retornar o valor total após o desconto;  
 * Deve-se utilizar estruturas *if*, *elif* e *else* **(exigência 1 de 1)**.
+
+**Teste:** 
+
+* Colocar um exemplo de SAIDA DE CONSOLE de compra de mais de 10 und. (para mostrar que o desconto foi aplicado)
+
+---
+
+**Resultado**
+
+![imagem](image.png)

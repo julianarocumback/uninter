@@ -11,9 +11,8 @@
 * Remover Peça 
 * Sair 
 
----
 
-### Elabore um programa em Python que:
+**Elabore um programa em Python que:**
 
 * Deve-se codificar uma função '*cadastrarPeca*' **(exigência 1)**;
     * Essa função receberá como parâmetro um código exclusivo para cada peça cadastrado (dica: utilize um contador como parâmetro);
@@ -29,3 +28,6 @@
         * Retornar.
 * Deve-se codificar uma função chamada '*removerPeca*' **(exigência 3)**.
     * Dentro da função, pergunte qual é o código do produto que deseja ser removido do cadastro (da lista de dicionário).
+
+**Teste:**
+

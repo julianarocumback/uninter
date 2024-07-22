@@ -15,9 +15,7 @@ A lanchonete possui a seguinte tabela de produtos listados com seus códigos, de
 |    200   |   Refrigerante de Lata  |     5,00    |
 |    201   |       Chá Gelado        |     4,00    |
 
----
-
-### Elabore um programa em Python que:
+**Elabore um programa em Python que:**
 
 1. Entre com o código do produto desejado;
 2. Pergunte se o cliente quer pedir mais alguma coisa (se sim, repita o passo 2. Caso contrário, ir para próximo passo);
@@ -27,3 +25,14 @@ A lanchonete possui a seguinte tabela de produtos listados com seus códigos, de
 6. Deve-se utilizar *while*, *break*, *continue* **(exigência 3 de 3)**.
     * (dica: utilize o *continue* dentro *else* para verificar a opção inválida);
     * (dica: utilize o *break* dentro *elif* para verificar a opção sair).
+
+**Teste:**
+
+* Colocar um exemplo de SAIDA DE CONSOLE com dois pedidos
+* Colocar um exemplo de SAIDA DE CONSOLE com erro ao digitar no pedido
+
+---
+
+**Resultado:**
+
+![alt](image.png)
